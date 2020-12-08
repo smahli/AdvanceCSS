@@ -1,0 +1,43 @@
+li{
+    padding: 0.25rem;
+    margin: 0.20rem;
+    list-style: none;
+}
+
+/* First Child */
+li:first-child{
+    background: red;
+}
+/* Last  Child */
+li:last-child{
+    background:green;
+}
+
+/* Position 3*/
+li:nth-child(3){
+    background: purple;
+}
+/* Position 10*/
+li:nth-child(10){
+    background: greenyellow !important; 
+}
+
+/* Every 4th*/
+li:nth-child(4n+0){
+    background: hotpink;
+}
+
+/* Every 3 after 7 item*/
+li:nth-child(3n+7){
+    background: yellow;
+
+}
+
+/* Every odd*/
+li:nth-child(odd){
+    background: #ccc;
+}
+/* Every even*/
+li:nth-child(even){
+    background: #ddd;
+}
